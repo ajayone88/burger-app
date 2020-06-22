@@ -1,0 +1,31 @@
+.BuildControl{
+    width:90%;
+    padding:2px 5px;
+    margin:1px auto;
+    display:flex;
+    justify-content: center;
+}
+
+.Label{
+    width:100px;
+}
+
+.Less:hover:enabled{
+    background-color: sienna;
+    border:0;
+}
+
+.Less{
+    display:block;
+    width:80px;
+}
+
+.More{
+    display:block;
+    width:80px;
+}
+
+.More:hover{
+    background-color: sienna;
+    border:0;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "burger-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "env-cmd -f ./config/dev.env webpack --config-register @babel/register --config=config/webpack.config",
+    "dev": "env-cmd -f ./config/dev.env nodemon --exec babel-node ./devServer/express.js"
+  },
+  "author": "Ajay Maurya",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/register": "^7.10.3",
+    "babel-loader": "^8.1.0",
+    "chalk": "^4.1.0",
+    "css-loader": "^3.6.0",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "nodemon": "^2.0.4",
+    "null-loader": "^4.0.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-hot-middleware": "^2.25.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.1",
+    "core-js": "^3.6.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

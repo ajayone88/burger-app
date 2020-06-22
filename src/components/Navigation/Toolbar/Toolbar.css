@@ -1,0 +1,24 @@
+.Toolbar {
+    position:fixed;
+    left:0;
+    top:0;
+    height: 40px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    background-color: teal;
+    z-index: 90;
+    align-items: center;
+    padding:12px;
+    box-sizing: border-box;
+}
+
+.NavigationItem {
+    display:block;
+}
+
+@media(max-width:500px){
+    .NavigationItem {
+        display:none;
+    }
+}

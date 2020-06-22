@@ -1,0 +1,16 @@
+.Button{
+    display: inline-block;
+    margin: 8px;
+    width:50px;
+    height:40px;
+    cursor:pointer;
+}
+
+.Success{
+    color:Green;
+   
+}
+
+.Danger{
+    color:red
+}

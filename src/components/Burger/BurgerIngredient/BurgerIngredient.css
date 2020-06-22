@@ -1,0 +1,117 @@
+.BreadTop{
+    position: relative;
+    width: 100%;
+    height:30px;
+    background-color: brown ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin: 4px 0;
+}
+
+.Sead1{
+    transform: rotate(40deg);
+    position: absolute;
+    width:5px;
+    height:10px;
+    border-radius: 50%;
+    top:5px;
+    left:70px;
+    background-color: white;
+}
+
+.Sead2{
+    transform: rotate(-40deg);
+    position: absolute;
+    width:5px;
+    height:10px;
+    left:35px;
+    bottom:5px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.Sead3{
+    transform: rotate(40deg);
+    position: absolute;
+    width:5px;
+    height:10px;
+    top:8px;
+    right:100px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.Sead4{
+    transform: rotate(40deg);
+    position: absolute;
+    width:5px;
+    height:10px;
+    bottom:8px;
+    right:50px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.BreadBottom{
+    width: 100%;
+    height:30px;
+    background-color: brown ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    margin: 4px 0;
+    line-height: 30px;
+}
+
+.Cheese{
+    width: 100%;
+    height:4px;
+    background-color: yellow ;
+    border-radius: 20px;
+    text-align: center;
+    margin: 4px 0;
+    line-height: 4px;
+}
+
+.Onion{
+    width: 90%;
+    height:5px;
+    background-color: purple ;
+    border-radius: 5px;
+    text-align: center;
+    margin: 4px auto;
+    line-height: 18px;
+}
+
+.VegPattie{
+    width: 95%;
+    height:15px;
+    background-color: burlywood ;
+    border-radius: 5px;
+    text-align: center;
+    margin: 4px auto;
+    line-height: 15px;
+}
+
+.Tomato{
+    width: 80%;
+    height:10px;
+    background-color: red ;
+    border-radius: 10px;
+    text-align: center;
+    margin: 4px auto;
+    line-height: 18px;
+}
+
+.Cucumber{
+    width: 85%;
+    height:8px;
+    background-color: green ;
+    border-radius: 20px;
+    text-align: center;
+    margin: 4px auto;
+    line-height: 8px;
+    font-size:8px;
+}

@@ -1,0 +1,19 @@
+.NavigationItem{
+    display: inline-block;
+    box-sizing: border-box;
+    height:40px;
+    padding:8px;
+    align-self: center;
+    vertical-align: sub;
+    cursor: pointer;
+}
+
+.NavigationItem:hover{
+    background-color: cornsilk;
+    border-bottom: 2px solid orange;
+}
+
+.Active{
+    background-color: azure;
+    border-bottom: 2px solid orange;
+}
